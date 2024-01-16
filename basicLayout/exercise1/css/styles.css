@@ -1,0 +1,53 @@
+#container{
+    width: 1000px;
+    height: 800px;
+    border: 8px solid red;
+    
+    margin: 1px auto;/* center */
+    padding: 1px;
+}
+#header{
+    width: 98%;
+    height: 178px;/*200px - 16 px of border - 2px of padding  - 4px of margin*/
+    border: 8px solid blue;
+    
+    margin: 2px auto;/* center */
+    padding: 1px;
+}
+.space{
+    width: 98%;
+    height: 28px;/*50 - 16 px of border - 2px of padding  - 4px of margin*/
+    border: 8px solid blue;
+
+    margin: 2px auto;/* center */
+    padding: 1px;
+}
+
+#content{
+    width: 98%;
+    height: 478px;/*500px - 16 px of border - 2px of padding  - 4px of margin*/
+    border: 8px solid blue;
+    
+    margin: 2px auto;/* center */
+    padding: 1px;
+}
+
+#logo{
+    width: 160px;/*200px - 16px of border  - 2px of padding  - 4px of margin*/
+    height: 88%;
+    border: 8px solid green;
+    float:left;
+
+    margin: 2px auto;/* center */
+    padding: 1px;
+}
+
+#banner{
+    width: 778px;/*800px - 16px of border  - 2px of padding  - 4px of margin*/
+    height: 88%;
+    border: 8px solid green;
+    float:right;
+
+    margin: 2px auto;/* center */
+    padding: 1px;
+}
