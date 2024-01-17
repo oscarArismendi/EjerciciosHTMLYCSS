@@ -16,10 +16,10 @@
 }
 .space{
     width: 98%;
-    height: 28px;/*50 - 16 px of border - 2px of padding  - 4px of margin*/
+    height: 28px;/*look good*/
     border: 8px solid blue;
 
-    margin: 2px auto;/* center */
+    margin: 4px auto;/* center */
     padding: 1px;
 }
 
@@ -40,6 +40,12 @@
 
     margin: 2px auto;/* center */
     padding: 1px;
+
+    color:green;
+    font-size: 2.5em; /* 40px/16=2.5em */
+    display: flex;/*allow the below option of modify the content*/
+    justify-content: center;/*center vertically*/
+    align-items: center;/*center horizontally*/
 }
 
 #banner{
@@ -50,4 +56,42 @@
 
     margin: 2px auto;/* center */
     padding: 1px;
+
+    color:green;
+    font-size: 2.5em; /* 40px/16=2.5em */
+    display: flex;/*allow the below option of modify the content*/
+    justify-content: center;/*center vertically*/
+    align-items: center;/*center horizontally*/
+}
+
+#articles{
+    width: 678px;/*700px - 16px of border  - 2px of padding  - 4px of margin*/
+    height: 95%;
+    border: 8px solid green;
+    float:left;
+
+    margin: 2px auto;/* center */
+    padding: 1px;
+
+    color:green;
+    font-size: 5em; /* 80px/16=5em */
+    display: flex;/*allow the below option of modify the content*/
+    justify-content: center;/*center vertically*/
+    align-items: center;/*center horizontally*/
+}
+
+#aside{
+    width: 260px;/*this work*/
+    height: 95%;
+    border: 8px solid green;
+    float:right;
+
+    margin: 2px auto;/* center */
+    padding: 1px;
+
+    color:green;
+    font-size: 5em; /* 80px/16=5em */
+    display: flex;/*allow the below option of modify the content*/
+    justify-content: center;/*center vertically*/
+    align-items: center;/*center horizontally*/
 }
